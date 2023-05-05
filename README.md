@@ -1,1 +1,1 @@
-# chatgpt-playground
+# ai-playground
