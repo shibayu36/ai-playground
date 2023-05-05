@@ -9,6 +9,9 @@ packages = [{include = "ai_playground"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
+llama-index = "^0.6.0"
+python-dotenv = "^1.0.0"
+html2text = "^2020.1.16"
 
 
 [build-system]
