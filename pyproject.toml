@@ -12,6 +12,7 @@ html2text = "^2020.1.16"
 llama-index = "^0.6.0"
 python = "^3.11"
 python-dotenv = "^1.0.0"
+tiktoken = "^0.3.3"
 
 [tool.poetry.group.dev.dependencies]
 mypy = "^1.2.0"
