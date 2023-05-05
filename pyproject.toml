@@ -1,19 +1,21 @@
 [tool.poetry]
-name = "ai-playground"
-version = "0.1.0"
-description = ""
 authors = ["shibayu36 <shibayu36@gmail.com>"]
+description = ""
 license = "MIT"
-readme = "README.md"
+name = "ai-playground"
 packages = [{include = "ai_playground"}]
+readme = "README.md"
+version = "0.1.0"
 
 [tool.poetry.dependencies]
-python = "^3.11"
-llama-index = "^0.6.0"
-python-dotenv = "^1.0.0"
 html2text = "^2020.1.16"
+llama-index = "^0.6.0"
+python = "^3.11"
+python-dotenv = "^1.0.0"
 
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.2.0"
 
 [build-system]
-requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core"]
